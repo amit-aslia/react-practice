@@ -1,0 +1,59 @@
+.heading {
+  text-align: center;
+  margin: 16px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 16px auto;
+  padding: 16px;
+  background: currentColor;
+  border-radius: 16px;
+}
+
+.flexPropertiesCenterAndSpacebetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.whiteColorAndBold {
+  color: white;
+  font-weight: bold;
+}
+
+.slider {
+  margin: 16px 0;
+}
+
+.checkboxContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.eachCheckBox {
+  display: flex;
+  gap: 4px;
+  flex-basis: 50%;
+  max-width: 50%;
+  margin: 16px 0;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  height: 50px;
+  border-radius: 16px;
+  border: 1px solid black;
+}
+
+.copy {
+  padding: 0 16px;
+}
+
+.input {
+  width: 100%;
+}

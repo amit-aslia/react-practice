@@ -1,0 +1,19 @@
+.container {
+  margin: 0 16px;
+}
+
+.progressbarContainer {
+  position: relative;
+  width: 100%;
+  border-radius: 16px;
+  background: #ccc;
+  height: 16px;
+  margin: 16px 0;
+}
+
+.progresbar {
+  position: absolute;
+  background: pink;
+  border-radius: 16px;
+  height: 100%;
+}

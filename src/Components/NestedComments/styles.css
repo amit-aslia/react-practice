@@ -1,0 +1,53 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.heading {
+  font: 24px;
+  text-align: center;
+  margin: 16px;
+}
+
+.input {
+  max-width: 300px;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 16px 0;
+}
+
+.mainComment {
+  font-size: large;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 2px solid;
+  padding: 8px;
+  margin: 16px 0;
+}
+
+.replies {
+  margin: 8px 0 8px 16px;
+}
+
+.hideComment {
+  color: blue;
+  font-size: 16px;
+}
+
+.repliesContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid;
+}
+
+.newReply {
+  color: blue;
+  pointer-events: auto;
+}
+
+.replyInput {
+ width: 100%;
+}

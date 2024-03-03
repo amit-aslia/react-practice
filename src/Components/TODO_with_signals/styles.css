@@ -1,0 +1,45 @@
+.navbarContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.horizontal {
+  border-top: 1px solid;
+  width: 100%;
+  margin: 16px 0;
+}
+
+.vertical {
+  border-left: 1px solid;
+  height: 100vh;
+}
+
+.todoContainer {
+  display: flex;
+  gap: 8px;
+}
+
+.col1 {
+  flex: 2;
+}
+
+.col3 {
+  flex: 1;
+}
+
+.todomain {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input, button {
+  max-width: 300px;
+}
+
+.tasklist {
+  display: flex;
+  gap: 8px;
+  pointer-events: auto;
+}
