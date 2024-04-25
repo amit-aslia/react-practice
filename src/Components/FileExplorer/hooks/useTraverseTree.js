@@ -3,12 +3,11 @@ const useTraverseTree = () => {
   // Can be optimised using Dynamic Programming
   const insertNode = function (tree, folderId, item, isFolder) {
     if (tree.id === folderId && tree.isFolder) {
-      console.log('check particulars', tree.id, folderId, tree.isFolder)
       tree.items.unshift({
-        id:new Date().getTime(),
+        id: new Date().getTime(),
         name: item,
         isFolder: isFolder,
-        items: []
+        items: [],
       });
 
       return tree;
@@ -18,11 +17,6 @@ const useTraverseTree = () => {
     latestNode = tree.items.map((ob) => {
       return insertNode(ob, folderId, item, isFolder);
     });
-
-    if (latestNode.length) {
-      // console.log('tree', tree);
-      // console.log('latest', latestNode);
-    }
 
     return { ...tree, items: latestNode };
   };

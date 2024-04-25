@@ -5,15 +5,17 @@
 // import NestedComments from './Components/NestedComments';
 // import ForwardRef from "./Components/ForwardRef";
 // import IntersectionObserver from './Components/checkObserver';
-import PasswordGen from "./Components/PasswordGen";
+// import PasswordGen from "./Components/PasswordGen";
+// import Star from "./Components/Star";
+// import SlideShow from "./Components/Stepper";
+import SelectableGrid from './Components/DummyComponent';
 
 import "./App.css";
 
 function App() {
   return (
     <>
-      {/* <IntersectionObserver /> */}
-      <PasswordGen />
+    <SelectableGrid />
     </>
   );
 }

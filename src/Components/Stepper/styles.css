@@ -1,0 +1,45 @@
+.container {
+  max-width: 600px;
+  margin: 16px auto;
+  border: 1px solid;
+  height: 300px;
+}
+
+.stepContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
+.st2 {
+  position: relative;
+  height: 100%;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: 0.5px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+
+.active {
+  background-color: red;
+}
+
+.progressLine {
+  position: absolute;
+  height: 2px;
+  background: gray;
+  width: 0;
+  top: 50%;
+  left: 0;
+  z-index: -1;
+  transition: all 2s ease;
+}

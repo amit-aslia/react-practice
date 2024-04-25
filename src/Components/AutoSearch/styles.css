@@ -1,0 +1,43 @@
+.container {
+  max-width: 500px;
+  margin: 16px auto;
+}
+
+.searchbarContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.search-input {
+  width: 70%;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.suggestionContainer {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  margin: 16px auto;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.suggestion {
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid;
+}
+
+.suggestion:hover {
+  background-color: #ccc;
+}
+
+.suggestion.active {
+  background-color: #ccc;
+}

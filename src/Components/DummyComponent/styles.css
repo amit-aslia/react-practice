@@ -1,0 +1,14 @@
+.container {
+  margin: 8px;
+}
+
+.eachElem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  margin: 16px 8px;
+  border-radius: 8px;
+  height: 30px;
+  padding: 8px;
+}

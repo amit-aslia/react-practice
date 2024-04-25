@@ -1,0 +1,64 @@
+.container {
+  max-width: 1024;
+  margin: 16px auto;
+}
+
+.slide {
+  width: 100%;
+  margin: 16px 0;
+  position: relative;
+}
+
+.imageCss {
+  height: 400px;
+  width: 100%;
+  object-fit: fill;
+}
+
+.listContainer {
+  max-width: 100%;
+  display: flex;
+  gap: 8px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.listImage {
+  border: 1px solid grey;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.listImage:hover {
+  scale: 1 1.1;
+}
+
+
+.eachImage {
+  width: 200px;
+  height: 100%;
+  object-fit: fill;
+}
+
+.active {
+  border: 10px solid red;
+  
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+}
+.next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.arrow {
+  z-index: 1;
+  padding: 16px;
+  border: 1px solid;
+  border-radius: 8px;
+  margin: 0 16px;
+  pointer-events: cur;
+}
